@@ -2,29 +2,76 @@
     <head>
         <title> Abut Crimsn </title>
         <style>
-            html {
+            html, body {
                 background-color:grey;
-                color:gold;
-            }
-            
-            #heading, #aboutme {
+                color:#692269;
+                margin:0;
+                padding: 0;
+                height:100%;
                 font-family:"Comic Sans MS", "Comic Sans";
                 text-align: center;
             }
+            body {
+                min-height:100%;
+            }
+            #aboutme {
+                padding:5%;
+            }
+            #Navigate {
+                color:gold;
+                width:100%;
+                position:absolute;
+                padding-top:1%;
+                padding-bottom: 1%;
+                bottom:0;
+                left:0;
+                object-position: bottom;
+                background-color: rgba(0, 0, 255, 0.68);
+            }
+            #heading {
+                color:gold;
+                width:100%;
+                font-size:130%;
+                background-color: rgba(0, 0, 255, 0.68);
+                padding-top:1%;
+                padding-bottom:1%;
+            }
+            #justunderheading {
+                font-size:60%;
+                color:gold;
+            }
+            a {
+                color:rgba(42, 0, 124, 0.78);
+            }
+            #Navigate a {
+                color:rgb(0, 255, 255);    
+            }   
+            a:hover {
+                color:gold;
+            }
         </style>
-        <div id="heading"> Behind The Amazing, The Fabulous, Crimson </div>
+        <div id="heading"><i>Behind The Amazing, The Fabulous, The One (well, not THE one) and (probably not) only, Crimson</i></div>
+        <div id="justunderheading">Heading too long, you reckon?</div>
     </head>
     <body>
         <section id="aboutme">
             <br><br>
-            <p> Crimson is my username on Steam, coming from Crimson065, but before that <br> 
-                it was CrimsonJim, and one step further makes CrimsonJim65. That's who I <br>
-                used to be. But that's a mouthful, and Crimson sounds much cooler. 
+            <p style="padding-left:10%; padding-right:10%;">
+                Crimson is my username on Steam, coming from Crimson065, but before that it was CrimsonJim,
+                and one step further makes CrimsonJim65. That's who I used to be. But that's a mouthful, 
+                and Crimson sounds much cooler.
+                <br>
+                <br>
+                Not much of interest on this page :3
                 <br><br>
-                so yaeh. K. :3 </p>
+                so yaeh. K. :3 
+            </p>
         </section>
     </body>
     <footer>
-    
+        <div id="Navigate"><i><b>Navigation</b></i><br>
+            Goin' somewhere? How 'bout the
+        <a href="index.html">Home</a> page? Or maybe the <a href="abut-crimsn.html">About Me</a> page?
+        </div>
     </footer>
 </html>
